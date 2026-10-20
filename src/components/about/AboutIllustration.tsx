@@ -54,7 +54,7 @@ export function AboutIllustration() {
   );
 }
 
-function Face({ x, y, spread = 11 }: { x: number; y: number; spread?: number }) {
+export function Face({ x, y, spread = 11 }: { x: number; y: number; spread?: number }) {
   return (
     <g>
       <circle cx={x - spread} cy={y} r="5.5" fill="#fff" />
