@@ -122,3 +122,14 @@ summary:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Use Cases panel: dim the artwork and show "View Work" on hover.
+   Plain :hover (no @media (hover: hover)) so it also works on touch-capable laptops. */
+.use-case-panel__overlay {
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.use-case-panel:hover .use-case-panel__overlay {
+  opacity: 1;
+}
