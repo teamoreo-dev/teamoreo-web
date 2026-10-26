@@ -1,0 +1,13 @@
+/* Styles for rich-text content in the admin editor.
+   The site doesn't use @tailwindcss/typography, so headings/lists/links are styled here. */
+.admin-rich h2 { font-size: 1.5rem; font-weight: 650; line-height: 1.25; margin: 1.25rem 0 0.5rem; }
+.admin-rich h3 { font-size: 1.2rem; font-weight: 650; line-height: 1.3; margin: 1rem 0 0.5rem; }
+.admin-rich p { margin: 0.6rem 0; }
+.admin-rich ul { list-style: disc; padding-left: 1.5rem; margin: 0.6rem 0; }
+.admin-rich ol { list-style: decimal; padding-left: 1.5rem; margin: 0.6rem 0; }
+.admin-rich a { color: var(--color-pink-dark); text-decoration: underline; }
+.admin-rich blockquote { border-left: 3px solid var(--color-pink); padding-left: 1rem; margin: 1rem 0; color: var(--color-grey-700); }
+.admin-rich code { background: var(--color-grey-100); border-radius: 0.25rem; padding: 0.1rem 0.3rem; }
+.admin-rich pre { background: var(--color-grey-100); border-radius: 0.35rem; padding: 0.75rem 1rem; overflow-x: auto; }
+.admin-rich .tiptap { outline: none; min-height: 300px; }
+.admin-rich .tiptap:focus-visible { outline: none; }
