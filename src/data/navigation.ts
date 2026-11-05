@@ -1,4 +1,5 @@
 import type { FooterGroup, NavigationItem } from "@/types/navigation";
+import { serviceLinks } from "./services";
 
 export const navigation: NavigationItem[] = [
   { label: "Home", href: "/" },
@@ -6,17 +7,7 @@ export const navigation: NavigationItem[] = [
   {
     label: "Services",
     href: "/services",
-    children: [
-      { label: "IT Consultancy", href: "/services/it-consultancy" },
-      { label: "Business Consultancy", href: "/services/business-consultancy" },
-      { label: "Data & Analytics", href: "/services/data-analytics" },
-      { label: "Business Intelligence", href: "/services/business-intelligence" },
-      { label: "AI-Driven Solutions", href: "/services/ai-solutions" },
-      { label: "Digital Transformation", href: "/services/digital-transformation" },
-      { label: "Process Improvement", href: "/services/process-improvement" },
-      { label: "Project Management", href: "/services/project-management" },
-      { label: "Technology Solutions", href: "/services/technology-solutions" },
-    ],
+    children: serviceLinks,
   },
   { label: "Use Cases", href: "/use-cases" },
   { label: "Blog", href: "/insights" },
@@ -34,13 +25,7 @@ export const footerGroups: FooterGroup[] = [
   },
   {
     title: "Services",
-    links: [
-      { label: "IT Consultancy", href: "/services/it-consultancy" },
-      { label: "Business Consultancy", href: "/services/business-consultancy" },
-      { label: "Data & Analytics", href: "/services/data-analytics" },
-      { label: "AI Solutions", href: "/services/ai-solutions" },
-      { label: "Digital Transformation", href: "/services/digital-transformation" },
-    ],
+    links: serviceLinks,
   },
   {
     title: "Resources",
