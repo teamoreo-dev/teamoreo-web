@@ -10,7 +10,6 @@ import { ServicesPreview } from "@/components/home/ServicesPreview";
 import { TeamPreview } from "@/components/home/TeamPreview";
 import { UseCasesPreview } from "@/components/home/UseCasesPreview";
 import { WhyTeamOreo } from "@/components/home/WhyTeamOreo";
-import { WorkPreview } from "@/components/home/WorkPreview";
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <AISolutions />
       <BusinessProcess />
       <UseCasesPreview />
-      <WorkPreview />
       <WhyTeamOreo />
       <Industries />
       <TeamPreview />

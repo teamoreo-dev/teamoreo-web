@@ -26,6 +26,8 @@ export function BlogForm({ mode, initial }: { mode: "create" | "edit"; initial?:
   const [content, setContent] = useState(initial?.content ?? "");
   const [category, setCategory] = useState(initial?.category ?? "");
   const [author, setAuthor] = useState(initial?.author ?? "Team Oreo");
+  const [seoTitle, setSeoTitle] = useState(initial?.seoTitle ?? "");
+  const [seoDescription, setSeoDescription] = useState(initial?.seoDescription ?? "");
   const [image, setImage] = useState<UploadedImage | null>(
     initial?.featuredImage?.url ? { url: initial.featuredImage.url, publicId: initial.featuredImage.publicId ?? "" } : null,
   );
@@ -35,10 +37,10 @@ export function BlogForm({ mode, initial }: { mode: "create" | "edit"; initial?:
   const [uploading, setUploading] = useState(false);
   const [saving, setSaving] = useState<null | "draft" | "published">(null);
   const [discardOpen, setDiscardOpen] = useState(false);
-  const [snapshot] = useState(() => JSON.stringify({ title, excerpt, content, category, author, image, alt }));
+  const [snapshot] = useState(() => JSON.stringify({ title, excerpt, content, category, author, seoTitle, seoDescription, image, alt }));
   const leaving = useRef(false);
 
-  const dirty = JSON.stringify({ title, excerpt, content, category, author, image, alt }) !== snapshot;
+  const dirty = JSON.stringify({ title, excerpt, content, category, author, seoTitle, seoDescription, image, alt }) !== snapshot;
 
   // Warn before closing the tab / reloading with unsaved changes
   useEffect(() => {
@@ -86,6 +88,8 @@ export function BlogForm({ mode, initial }: { mode: "create" | "edit"; initial?:
       content,
       category,
       author: author.trim(),
+      seoTitle: seoTitle.trim() || undefined,
+      seoDescription: seoDescription.trim() || undefined,
       featuredImage: { url: image!.url, publicId: image!.publicId || undefined, alt: alt.trim() },
       status,
     };
@@ -183,6 +187,11 @@ export function BlogForm({ mode, initial }: { mode: "create" | "edit"; initial?:
       </div>
 
       <ImageUploader value={image} alt={alt} onChange={setImage} onUploadingChange={setUploading} error={errors.image} />
+
+      <div className="grid gap-6 sm:grid-cols-2">
+        <div><label htmlFor="field-seo-title" className={labelClass}>SEO title <span className="font-normal text-muted">(optional)</span></label><input id="field-seo-title" value={seoTitle} maxLength={200} onChange={(e) => setSeoTitle(e.target.value)} className={inputClass} /></div>
+        <div><label htmlFor="field-seo-description" className={labelClass}>SEO description <span className="font-normal text-muted">(optional)</span></label><textarea id="field-seo-description" rows={3} value={seoDescription} maxLength={500} onChange={(e) => setSeoDescription(e.target.value)} className={inputClass} /></div>
+      </div>
 
       <div>
         <label htmlFor="field-alt" className={labelClass}>Image alt text</label>

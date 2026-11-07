@@ -181,7 +181,7 @@
         "label": "Web Platform"
       },
       "testimonial": {
-        "quote": "Its focus on community-driven solutions and local empowerment is commendable.",
+        "quote": "The Your Royal Docks project is a thoughtful and timely initiative that responds well to the unique challenges of the Royal Docks area. Its focus on community-driven solutions and local empowerment is commendable. The step-by-step planning and structured milestones show that the team has taken a practical and methodical approach, from initial research to software development and marketing strategy.",
         "author": "Dean Smith",
         "role": "Community Engagement Head, Team Oreo",
         "excerpt": true
@@ -246,7 +246,7 @@
         "The source reports 15% less food and operational waste, a 21% improvement in process efficiency and a 29% increase in customer satisfaction scores."
       ],
       "testimonial": {
-        "quote": "We’ve seen real, measurable improvements across all areas.",
+        "quote": "Working with Team Oreo has been a game-changer for our business. Their bespoke approach and deep understanding of operational efficiency helped us transform both our kitchen and customer service experience. We’ve seen real, measurable improvements across all areas.",
         "author": "Rajiv Mehta",
         "role": "Restaurant Owner, Spice Heritage",
         "excerpt": true
@@ -280,6 +280,11 @@
         "web-development"
       ],
       "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/driving-revenue-growth-for-a-high-street-retail-business",
+      "heroImage": {
+        "src": "/images/use-cases/driving-revenue-growth-for-a-high-street-retail-business-hero.jpeg",
+        "alt": "Official case-study artwork for Driving Revenue Growth for a High-Street Retail Business",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1860924648756332.WhatsApp%20Image%202026-03-28%20at%2010.30.26%20PM%20(1).jpeg"
+      },
       "about": [
         "Team Oreo worked with Your Local Stop to improve sales, address operational gaps and build a system for consistent growth. Over six months, the source reports improved revenue, stock control and in-store performance."
       ],
@@ -428,7 +433,7 @@
         "label": "UI/UX Design"
       },
       "testimonial": {
-        "quote": "The redesign was a thoughtful and strategic improvement that significantly enhanced the user experience.",
+        "quote": "The redesign was a thoughtful and strategic improvement that significantly enhanced the user experience. By simplifying navigation, improving visual consistency, and adding practical features like application tracking, the new platform feels modern, professional, and accessible. This transformation streamlines the application process and reflects the Metropolitan Police Service’s commitment to engaging talent more effectively.",
         "author": "Mohammed Hadi",
         "role": "CEO, Team Oreo",
         "excerpt": true

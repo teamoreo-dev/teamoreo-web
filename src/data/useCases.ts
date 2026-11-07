@@ -41,7 +41,7 @@ const records: UseCaseRecord[] = database.useCases;
 // Keep the approved listing's order and copy while sharing canonical project records.
 export const useCases = [...records]
   .sort((a, b) => (a.listingOrder ?? 0) - (b.listingOrder ?? 0))
-  .map((record) => ({ ...record, summary: record.listingSummary ?? record.summary }));
+  .map((record) => ({ ...record, image: record.image ?? record.heroImage?.src, summary: record.listingSummary ?? record.summary }));
 
 export function getUseCase(slug: string) {
   return records.find((record) => record.slug === slug);

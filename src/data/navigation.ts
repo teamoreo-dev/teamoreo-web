@@ -2,7 +2,6 @@ import type { FooterGroup, NavigationItem } from "@/types/navigation";
 import { serviceLinks } from "./services";
 
 export const navigation: NavigationItem[] = [
-  { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   {
     label: "Services",
@@ -31,15 +30,16 @@ export const footerGroups: FooterGroup[] = [
     title: "Resources",
     links: [
       { label: "Use Cases", href: "/use-cases" },
-      { label: "Our Work", href: "/work" },
       { label: "Insights", href: "/insights" },
       { label: "FAQ", href: "/faq" },
+      { label: "Certificate", href: "/certificates" },
+      { label: "Community Hub", href: "/community-hub" },
     ],
   },
   {
     title: "Work With Us",
     links: [
-      { label: "Careers", href: "/work-with-us" },
+      { label: "Careers", href: "/careers" },
       {
         label: "Internship & Placement",
         href: "/work-with-us/internship-placement",
@@ -48,9 +48,4 @@ export const footerGroups: FooterGroup[] = [
   },
 ];
 
-export const legalLinks = [
-  { label: "Privacy", href: "/privacy" },
-  { label: "Terms", href: "/terms" },
-  { label: "Cookies", href: "/cookies" },
-  { label: "Accessibility", href: "/accessibility" },
-];
+export const legalLinks = [{ label: "Privacy", href: "/privacy-policy" }];
