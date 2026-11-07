@@ -22,7 +22,7 @@ export function AISolutions() {
               </li>
             ))}
           </ul>
-          <Button href="/services/ai-solutions" variant="light" className="mt-7">Explore AI Solutions</Button>
+          <Button href="/services/artificial-intelligence" variant="light" className="mt-7">Explore AI Solutions</Button>
         </div>
 
         <div className="relative mx-auto aspect-square w-full max-w-[340px]" aria-hidden="true">

@@ -25,6 +25,8 @@ export type Blog = {
   featuredImage: { url: string; publicId?: string; alt?: string };
   category: string;
   author: string;
+  seoTitle?: string;
+  seoDescription?: string;
   status: BlogStatus;
   publishedAt: string | null;
   createdAt: string;

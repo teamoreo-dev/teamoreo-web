@@ -1,38 +1,42 @@
-export const services = [
-  {
-    number: "01",
-    title: "Technology Solutions",
-    description: "Practical systems and digital tools designed around the way your organisation works.",
-    href: "/services/technology-solutions",
-  },
-  {
-    number: "02",
-    title: "Business & IT Consultancy",
-    description: "Clear thinking that aligns technology decisions with meaningful business priorities.",
-    href: "/services/business-consultancy",
-  },
-  {
-    number: "03",
-    title: "Data & Business Intelligence",
-    description: "Turn complex information into reporting and insight your teams can act on.",
-    href: "/services/data-analytics",
-  },
-  {
-    number: "04",
-    title: "AI-Driven Solutions",
-    description: "Responsible AI integration and automation focused on useful, everyday outcomes.",
-    href: "/services/ai-solutions",
-  },
-  {
-    number: "05",
-    title: "Digital Transformation",
-    description: "Modernise processes, systems and customer experiences with a joined-up approach.",
-    href: "/services/digital-transformation",
-  },
-  {
-    number: "06",
-    title: "Operational Improvement",
-    description: "Find friction, improve workflows and create a stronger foundation for growth.",
-    href: "/services/process-improvement",
-  },
-];
+import database from "../../db.json";
+import type { UseCaseRecord } from "./useCases";
+
+export type ServiceRecord = {
+  id: string;
+  slug: string;
+  title: string;
+  shortDescription: string;
+  description: string;
+  heroImage: { src: string; alt: string; sourceUrl: string };
+  recentWork: string[];
+  sourceUrl: string;
+};
+
+type ContentDatabase = {
+  schemaVersion: number;
+  services: ServiceRecord[];
+  useCases: UseCaseRecord[];
+};
+
+const content: ContentDatabase = database;
+
+export const services = content.services.map((service) => ({
+  ...service,
+  href: `/services/${service.slug}`,
+}));
+
+export type Service = (typeof services)[number];
+
+export const serviceLinks = services.map(({ title, href }) => ({ label: title, href }));
+
+export function getService(slug: string) {
+  return services.find((service) => service.slug === slug);
+}
+
+export function getRecentWork(service: Service) {
+  return service.recentWork.map((slug) => {
+    const work = content.useCases.find((item) => item.slug === slug);
+    if (!work) throw new Error(`Unknown use-case reference in service ${service.slug}: ${slug}`);
+    return { ...work, href: `/use-cases/${work.slug}` };
+  });
+}

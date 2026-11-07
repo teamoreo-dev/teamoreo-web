@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "website": "https://www.teamoreo.co.uk/",
+    "verifiedOn": "2026-10-27",
+    "note": "Service descriptions and project narratives are concise adaptations of official Team Oreo pages. Relationships use internal slugs. Source URLs record provenance only. Verified project figures are attributed to the published source; testimonials use unchanged excerpts. Existing approved listing copy is retained for compatibility."
+  },
+  "services": [
+    {
+      "id": "service-it-consultancy",
+      "slug": "it-consultancy",
+      "title": "IT Consultancy",
+      "shortDescription": "IT infrastructure, security and digital solutions aligned with business goals.",
+      "description": "Expert guidance to optimise IT infrastructure, enhance security and implement digital solutions that align technology with business goals.",
+      "heroImage": {
+        "src": "/images/services/it-consultancy.svg",
+        "alt": "IT Consultancy illustration",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1825865953859017.IT.svg"
+      },
+      "recentWork": [
+        "your-royal-docks",
+        "bespoke-business-solution-for-a-hospitality-industry"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/it-consultancy"
+    },
+    {
+      "id": "service-web-development",
+      "slug": "web-development",
+      "title": "Web Development",
+      "shortDescription": "Custom websites and web applications with responsive, user-friendly design.",
+      "description": "Custom websites and web applications, with a focus on functionality, responsive design and seamless user experiences.",
+      "heroImage": {
+        "src": "/images/services/web-development.svg",
+        "alt": "A person using a laptop beside a website interface",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1825866043821985.web.svg"
+      },
+      "recentWork": [
+        "your-royal-docks",
+        "driving-revenue-growth-for-a-high-street-retail-business"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/web-development"
+    },
+    {
+      "id": "service-app-development",
+      "slug": "app-development",
+      "title": "App Development",
+      "shortDescription": "Custom iOS and Android applications focused on usability and performance.",
+      "description": "Custom mobile applications for iOS and Android, with a focus on user-friendly design, performance and seamless functionality.",
+      "heroImage": {
+        "src": "/images/services/app-development.svg",
+        "alt": "App Development illustration",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1825866102141841.app.svg"
+      },
+      "recentWork": [
+        "emergency-support-app-to-combat-gender-based-violence"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/app-development"
+    },
+    {
+      "id": "service-ui-design",
+      "slug": "ui-design",
+      "title": "UI Design",
+      "shortDescription": "Visually appealing, intuitive interfaces for web and mobile applications.",
+      "description": "Visually appealing, user-friendly interfaces for web and mobile applications, designed to provide an intuitive experience.",
+      "heroImage": {
+        "src": "/images/services/ui-design.svg",
+        "alt": "UI Design illustration",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1825866145415606.ui.svg"
+      },
+      "recentWork": [
+        "metropolitan-police-service-recruitment-portal"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/ui-design"
+    },
+    {
+      "id": "service-ux-design",
+      "slug": "ux-design",
+      "title": "UX Design",
+      "shortDescription": "Usability, accessibility and experiences that meet users’ needs.",
+      "description": "Improving the usability, accessibility and overall experience of products and services to meet users’ needs and expectations.",
+      "heroImage": {
+        "src": "/images/services/ux-design.svg",
+        "alt": "UX Design illustration",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1825866226006112.ux.svg"
+      },
+      "recentWork": [
+        "metropolitan-police-service-recruitment-portal",
+        "emergency-support-app-to-combat-gender-based-violence"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/ux-design"
+    },
+    {
+      "id": "service-project-management",
+      "slug": "project-management",
+      "title": "Project Management",
+      "shortDescription": "Project planning, delivery and coordination around budgets and business objectives.",
+      "description": "Planning, executing and overseeing projects, with coordination and communication focused on timely completion, budgets and business objectives.",
+      "heroImage": {
+        "src": "/images/services/project-management.svg",
+        "alt": "Project Management illustration",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1825866301651210.project.svg"
+      },
+      "recentWork": [
+        "your-royal-docks",
+        "streamlining-operations-with-cloud-solutions-for-feex-group",
+        "emergency-support-app-to-combat-gender-based-violence",
+        "bespoke-business-solution-for-a-hospitality-industry"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/project-management"
+    },
+    {
+      "id": "service-artificial-intelligence",
+      "slug": "artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "shortDescription": "AI for automation, data-driven decisions and customer engagement.",
+      "description": "Applying artificial intelligence to business problems, helping organisations automate operations, make data-driven decisions and improve customer engagement.",
+      "heroImage": {
+        "src": "/images/services/artificial-intelligence.svg",
+        "alt": "Artificial Intelligence illustration",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1830365048093078.AI.svg"
+      },
+      "recentWork": [],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/artificial-intelligence"
+    },
+    {
+      "id": "service-blockchain-technology",
+      "slug": "blockchain-technology",
+      "title": "Blockchain Technology",
+      "shortDescription": "Decentralised solutions for transparency, security and data integrity.",
+      "description": "Decentralised solutions that help organisations improve transparency, security and efficiency, streamline processes, reduce fraud and maintain data integrity.",
+      "heroImage": {
+        "src": "/images/services/blockchain-technology.svg",
+        "alt": "Blockchain Technology illustration",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/our-service/service/1830365586997468.blockchain.svg"
+      },
+      "recentWork": [
+        "digital-transformation-for-a-retail-giant"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/service/blockchain-technology"
+    }
+  ],
+  "useCases": [
+    {
+      "slug": "your-royal-docks",
+      "title": "Your Royal Docks",
+      "project": "Web Development",
+      "client": "Newham Council (Community Project)",
+      "category": "Web Platform",
+      "timeline": "6 Months",
+      "summary": "A community engagement platform connecting Royal Docks residents, visitors and businesses with local services, events and opportunities.",
+      "servicesProvided": [
+        "it-consultancy",
+        "web-development",
+        "project-management"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/your-royal-docks",
+      "about": [
+        "Your Royal Docks connects residents, visitors and businesses with local services, events, employment and business opportunities. The community platform supports participation, local knowledge sharing and stronger relationships across London’s Royal Docks."
+      ],
+      "problems": {
+        "paragraphs": [
+          "Residents face barriers to employment, skills and local opportunities, alongside high living costs and social inequality. Smaller businesses also struggle to reach people and promote their services."
+        ]
+      },
+      "challenges": {
+        "items": [
+          "Serve a diverse, changing population with different communication and access needs.",
+          "Connect economic development with practical benefits for existing communities.",
+          "Reach isolated residents and help them participate in local opportunities."
+        ]
+      },
+      "solutions": {
+        "items": [
+          "Bring community updates, events, services and job opportunities into one digital platform.",
+          "Help local businesses become more visible to residents and visitors.",
+          "Support community discussions, shared knowledge and participation in local initiatives."
+        ]
+      },
+      "artwork": {
+        "title": "Your Royal Docks",
+        "label": "Web Platform"
+      },
+      "testimonial": {
+        "quote": "The Your Royal Docks project is a thoughtful and timely initiative that responds well to the unique challenges of the Royal Docks area. Its focus on community-driven solutions and local empowerment is commendable. The step-by-step planning and structured milestones show that the team has taken a practical and methodical approach, from initial research to software development and marketing strategy.",
+        "author": "Dean Smith",
+        "role": "Community Engagement Head, Team Oreo",
+        "excerpt": true
+      },
+      "listingOrder": 0,
+      "listingSummary": "Your Royal Docks is a community engagement platform designed to foster collaboration between residents, visitors, and business owners in the Royal Docks area, a rapidly developing and culturally diverse part of London’s Newham borough. With the Royal Docks set to become a national hub for enterprise, employment, and innovation, this project aims to create an inclusive digital space that connects people with opportunities, local services, events, and one another. The initiative focuses on enhancing social participation, improving access to employment and business opportunities, and strengthening the community's social fabric by leveraging local knowledge and fostering trust in community organizations.",
+      "provenance": {
+        "verifiedOn": "2026-10-27",
+        "liveViewSourceHref": "https://drive.google.com/file/d/1ANcPS1RBfIilzrsFefWtN0SRRduIKjaP/view?usp=drive_link",
+        "notes": [
+          "The source links to a Google Drive file that returned HTTP 401; public access and project contents could not be verified.",
+          "Testimonial quote is an unchanged excerpt from the project-specific source.",
+          "Secondary artwork uses the approved abstract pink project treatment; no stock image is presented as a client project screenshot."
+        ]
+      },
+      "heroImage": {
+        "src": "/images/use-cases/your-royal-docks-hero.jpg",
+        "alt": "Official case-study artwork for Your Royal Docks",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1830278464205786.YRD.jpg"
+      }
+    },
+    {
+      "slug": "bespoke-business-solution-for-a-hospitality-industry",
+      "title": "Bespoke Business Solution for a Hospitality Industry",
+      "project": "Business Development",
+      "client": "Spice Heritage",
+      "category": "IT Solutions",
+      "timeline": "8 Weeks",
+      "summary": "An operational consultancy project for Spice Heritage in Central London, combining data analysis, process optimisation and staff training to improve restaurant operations and customer experience.",
+      "servicesProvided": [
+        "it-consultancy",
+        "project-management"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/bespoke-business-solution-for-a-hospitality-industry",
+      "about": [
+        "Spice Heritage, a restaurant in Central London, engaged Team Oreo to improve operations and customer experience. The consultancy combined operational analysis, process improvements and staff training while preserving the restaurant’s service standards."
+      ],
+      "problems": {
+        "paragraphs": [
+          "Food waste, inaccurate inventory and inconsistent service increased costs and affected customer satisfaction. The restaurant lacked structured performance tracking and a reliable customer feedback process."
+        ]
+      },
+      "challenges": {
+        "items": [
+          "Introduce changes without disrupting daily service.",
+          "Help staff adopt consistent kitchen and front-of-house workflows.",
+          "Improve visibility into operations while balancing costs and customer experience."
+        ]
+      },
+      "solutions": {
+        "items": [
+          "Audit kitchen, service and inventory workflows and identify inefficiencies.",
+          "Introduce standard procedures, waste tracking and staff training.",
+          "Use performance dashboards and customer feedback to guide ongoing improvements."
+        ]
+      },
+      "artwork": {
+        "title": "Spice Heritage",
+        "label": "Hospitality"
+      },
+      "results": [
+        "The source reports 15% less food and operational waste, a 21% improvement in process efficiency and a 29% increase in customer satisfaction scores."
+      ],
+      "testimonial": {
+        "quote": "Working with Team Oreo has been a game-changer for our business. Their bespoke approach and deep understanding of operational efficiency helped us transform both our kitchen and customer service experience. We’ve seen real, measurable improvements across all areas.",
+        "author": "Rajiv Mehta",
+        "role": "Restaurant Owner, Spice Heritage",
+        "excerpt": true
+      },
+      "listingOrder": 5,
+      "listingSummary": "Spice Heritage, a premium Indian dining destination in Central London, contacted Team Oreo to enhance operational efficiency and customer experience. Despite its strong market presence, the restaurant faced underlying inefficiencies impacting profitability and service quality. Our Business Development team delivered a bespoke consultancy solution, combining data analysis, process optimisation, and staff training. The goal was to create a sustainable operational model that improves performance while maintaining the restaurant’s authentic culinary identity and premium service standards.",
+      "provenance": {
+        "verifiedOn": "2026-10-27",
+        "liveViewSourceHref": "www.spiceheritagemayfair.co.uk/case-study-team-oreo",
+        "notes": [
+          "The source supplies www.spiceheritagemayfair.co.uk/case-study-team-oreo without a scheme. Its HTTPS destination could not be resolved during verification.",
+          "Testimonial quote is an unchanged excerpt from the project-specific source.",
+          "Secondary artwork uses the approved abstract pink project treatment; no stock image is presented as a client project screenshot."
+        ]
+      },
+      "heroImage": {
+        "src": "/images/use-cases/bespoke-business-solution-for-a-hospitality-industry-hero.jpeg",
+        "alt": "Official case-study artwork for Bespoke Business Solution for a Hospitality Industry",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1860637550394027.WhatsApp Image 2026-03-25 at 4.02.42 PM.jpeg"
+      }
+    },
+    {
+      "slug": "driving-revenue-growth-for-a-high-street-retail-business",
+      "title": "Driving Revenue Growth for a High-Street Retail Business",
+      "project": "Business Development",
+      "client": "Your Local Stop",
+      "category": "Business Consultation",
+      "timeline": "6 Months",
+      "summary": "A retail consultancy project for Your Local Stop, addressing sales performance, stock management and operational processes to support consistent growth.",
+      "servicesProvided": [
+        "web-development"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/driving-revenue-growth-for-a-high-street-retail-business",
+      "heroImage": {
+        "src": "/images/use-cases/driving-revenue-growth-for-a-high-street-retail-business-hero.jpeg",
+        "alt": "Official case-study artwork for Driving Revenue Growth for a High-Street Retail Business",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1860924648756332.WhatsApp%20Image%202026-03-28%20at%2010.30.26%20PM%20(1).jpeg"
+      },
+      "about": [
+        "Team Oreo worked with Your Local Stop to improve sales, address operational gaps and build a system for consistent growth. Over six months, the source reports improved revenue, stock control and in-store performance."
+      ],
+      "problems": {
+        "paragraphs": [
+          "Revenue was stagnant despite steady foot traffic. Poor product rotation, stockouts of popular items, excess slow-moving stock and limited sales tracking made performance inconsistent. Staff lacked clear structure and direction."
+        ]
+      },
+      "challenges": {
+        "items": [
+          "Lack of reliable sales data made it difficult to identify what was working.",
+          "Inconsistent store processes left no clear system for stock management, product placement or performance accountability.",
+          "Staff training gaps left employees unaligned with business goals, with no clear ownership of store-level results."
+        ]
+      },
+      "solutions": {
+        "items": [
+          "Introduced a sales tracking system to show top-performing products, dead stock and daily revenue patterns.",
+          "Restructured stock management by prioritising high-demand products, reducing slow movers and implementing a rotation system.",
+          "Redesigned in-store processes, optimising product placement based on customer behaviour.",
+          "Trained staff with clear responsibilities, performance expectations and daily targets."
+        ]
+      },
+      "artwork": {
+        "title": "Your Local Stop",
+        "label": "Retail"
+      },
+      "testimonial": {
+        "quote": "Team Oreo didn’t just give advice they got into the business and fixed what actually mattered.",
+        "author": "Rajesh Patel",
+        "role": "Shop Owner, Your Local Stop",
+        "excerpt": true
+      },
+      "listingOrder": 6,
+      "listingSummary": "We work with a struggling retail business to improve sales performance, fix operational gaps, and create a scalable system for consistent growth. Within six months, the business saw a measurable increase in revenue, better stock control, and improved in-store performance.",
+      "provenance": {
+        "verifiedOn": "2026-10-27",
+        "liveViewSourceHref": "https://teamoreo.co.uk/",
+        "notes": [
+          "The source Live View points to the Team Oreo homepage, not a verified client or project destination.",
+          "Testimonial quote is an unchanged excerpt from the project-specific source.",
+          "The approved reference uses abstract project artwork. The source image is a generic street photograph with overlaid text; the detail page uses the approved abstract treatment rather than presenting it as a client photograph.",
+          "Secondary artwork uses the approved abstract pink project treatment; no stock image is presented as a client project screenshot."
+        ]
+      }
+    },
+    {
+      "slug": "emergency-support-app-to-combat-gender-based-violence",
+      "title": "Emergency Support App to Combat Gender-Based Violence",
+      "project": "App Design",
+      "client": "Metropolitan Police and MOPAC",
+      "category": "Web Platform",
+      "timeline": "12 Months",
+      "summary": "Locate Me is a mobile application for reporting emergencies through real-time location sharing and live video, with discreet triggering options and additional support features.",
+      "servicesProvided": [
+        "app-development",
+        "ux-design",
+        "project-management"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/emergency-support-app-to-combat-gender-based-violence",
+      "about": [
+        "Team Oreo developed Locate Me to help people report emergencies by sharing their location and live video with trusted contacts and police. The app includes discreet alert options, mental health support and crime reporting."
+      ],
+      "problems": {
+        "paragraphs": [
+          "Conventional emergency reporting can be difficult when speaking would increase danger. Fear, stigma and delays in receiving help created a need for discreet, user-controlled access to support."
+        ]
+      },
+      "challenges": {
+        "items": [
+          "Balance discreet alerts with confirmation to reduce accidental activation.",
+          "Protect confidentiality and personal data while coordinating emergency responses.",
+          "Support mobile platforms without excessive battery or data use."
+        ]
+      },
+      "solutions": {
+        "items": [
+          "Combine location sharing, live video and shake or button alerts.",
+          "Let users control sharing, including restricting information to law enforcement.",
+          "Offer nearby volunteer assistance and mental health checks that connect people with professional support."
+        ]
+      },
+      "artwork": {
+        "title": "Locate Me",
+        "label": "App Design"
+      },
+      "testimonial": {
+        "quote": "The flexibility it gives users to choose how and when to seek help fills a critical gap.",
+        "author": "Anaya Sharma",
+        "role": "Violence Against Women Activist, Justice for Women UK",
+        "excerpt": true
+      },
+      "listingOrder": 4,
+      "listingSummary": "Team Oreo developed Locate Me, a mobile application focused on helping users report emergencies such as domestic violence, sexual assault, or public harassment by sharing real-time location and live video streams with trusted contacts and police. The app offers multiple triggering options, including shake detection and voice recognition, ensuring discreet use in critical moments. Additional features like mental health chatbot support and a “report a crime” function aim to offer holistic safety. The app is now delivered to relevant organisations.",
+      "provenance": {
+        "verifiedOn": "2026-10-27",
+        "liveViewSourceHref": "https://teamoreo.co.uk/",
+        "notes": [
+          "The source Live View points to the Team Oreo homepage, not a verified client or project destination.",
+          "Testimonial quote is an unchanged excerpt from the project-specific source.",
+          "Secondary artwork uses the approved abstract pink project treatment; no stock image is presented as a client project screenshot."
+        ]
+      },
+      "heroImage": {
+        "src": "/images/use-cases/emergency-support-app-to-combat-gender-based-violence-hero.png",
+        "alt": "Official case-study artwork for Locate Me",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1860866657956441.Locate Me (2).png"
+      }
+    },
+    {
+      "slug": "metropolitan-police-service-recruitment-portal",
+      "title": "Metropolitan Police Service Recruitment Portal",
+      "project": "UI/UX Design",
+      "client": "Metropolitan Police Service",
+      "category": "Web Platform",
+      "timeline": "3 Months",
+      "summary": "A redesign of the Metropolitan Police Service recruitment website focused on navigation, visual clarity, accessibility and the application experience across devices.",
+      "servicesProvided": [
+        "ui-design",
+        "ux-design"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/metropolitan-police-service-recruitment-portal",
+      "about": [
+        "Team Oreo redesigned the Metropolitan Police Service recruitment website to simplify applications and improve navigation, presentation and accessibility. The project addressed job listings, calls to action and application tracking across devices."
+      ],
+      "problems": {
+        "paragraphs": [
+          "Inconsistent design, cluttered information and unclear navigation made the original application journey difficult to follow. Weak visual hierarchy prevented applicants from finding relevant information easily."
+        ]
+      },
+      "challenges": {
+        "items": [
+          "Replace a disorganised interface while preserving its functions.",
+          "Balance accessibility, responsive layouts and the needs of different applicants."
+        ]
+      },
+      "solutions": {
+        "items": [
+          "Introduce consistent typography, a clear visual hierarchy and flexible page layouts.",
+          "Organise job listings and events into dedicated pages.",
+          "Provide a dashboard that helps applicants navigate and track their applications."
+        ]
+      },
+      "artwork": {
+        "title": "Metropolitan Police Service",
+        "label": "UI/UX Design"
+      },
+      "testimonial": {
+        "quote": "The redesign was a thoughtful and strategic improvement that significantly enhanced the user experience. By simplifying navigation, improving visual consistency, and adding practical features like application tracking, the new platform feels modern, professional, and accessible. This transformation streamlines the application process and reflects the Metropolitan Police Service’s commitment to engaging talent more effectively.",
+        "author": "Mohammed Hadi",
+        "role": "CEO, Team Oreo",
+        "excerpt": true
+      },
+      "listingOrder": 1,
+      "listingSummary": "We took on the mission to transform the Metropolitan Police Service’s job application website into a smooth and user-friendly experience. The project aimed to redesign the site’s layout and interface to make navigation easier, enhance visual appeal, and create a more accessible and engaging platform for potential applicants. From clear call-to-actions to an intuitive job tracking dashboard, the goal was to ensure the site attracted new talent and made the application process simple and seamless across all devices.",
+      "provenance": {
+        "verifiedOn": "2026-10-27",
+        "liveViewSourceHref": "https://shorturl.at/EAc7k",
+        "notes": [
+          "The source shortened URL returned HTTP 403, so its final destination could not be verified.",
+          "Testimonial quote is an unchanged excerpt from the project-specific source.",
+          "Secondary artwork uses the approved abstract pink project treatment; no stock image is presented as a client project screenshot."
+        ]
+      },
+      "heroImage": {
+        "src": "/images/use-cases/metropolitan-police-service-recruitment-portal-hero.jpg",
+        "alt": "Official case-study artwork for Metropolitan Police Service Recruitment Portal",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1830278888126223.hero-image-met-police-pablo-unlimited-change-needs-you (1).jpg"
+      }
+    },
+    {
+      "slug": "streamlining-operations-with-cloud-solutions-for-feex-group",
+      "title": "Streamlining Operations with Cloud Solutions for FEEX Group",
+      "project": "Software Development",
+      "client": "FEEX Group",
+      "category": "Cloud Solution",
+      "timeline": "6 Months",
+      "summary": "A cloud-based modernisation project for FEEX Group, covering planning and data migration to support workflows, collaboration and scalability.",
+      "servicesProvided": [
+        "project-management"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/streamlining-operations-with-cloud-solutions-for-feex-group",
+      "about": [
+        "Team Oreo worked with FEEX Group, a Chicago manufacturing business, to modernise legacy software using cloud infrastructure. The six-month engagement covered planning and data migration, with a focus on collaboration, efficiency and scalability."
+      ],
+      "problems": {
+        "paragraphs": [
+          "Legacy infrastructure caused downtime, isolated data and high maintenance costs. Growing workloads strained on-premise servers, and remote staff struggled to access essential systems."
+        ]
+      },
+      "challenges": {
+        "items": [
+          "Migrate data safely with minimal disruption to daily operations.",
+          "Integrate existing applications and help employees adopt new workflows.",
+          "Address security requirements and manufacturing industry compliance."
+        ]
+      },
+      "solutions": {
+        "items": [
+          "Combine private and public cloud infrastructure with a phased migration.",
+          "Use automated backups and custom APIs to preserve data and connect legacy applications.",
+          "Provide staff training and ongoing support, with encryption and multi-factor authentication."
+        ]
+      },
+      "artwork": {
+        "title": "FEEX Group",
+        "label": "Cloud Solution"
+      },
+      "results": [
+        "The source reports a 30% reduction in operational costs and improved system reliability."
+      ],
+      "testimonial": {
+        "quote": "We now have a scalable, secure infrastructure that supports our growth.",
+        "author": "Ricky Lee",
+        "role": "CIO, FEEX Group, Chicago.",
+        "excerpt": true
+      },
+      "listingOrder": 3,
+      "listingSummary": "We worked with FEEX Group, a mid-sized manufacturing company based in Chicago, to modernize its outdated Software as a Service (SaaS). The goal was to enhance operational efficiency, reduce costs, and improve scalability. We implemented a tailored cloud-based solution to streamline their workflows, ensuring seamless data access and collaboration across multiple locations. The project spanned six months and covered planning and data migration.",
+      "provenance": {
+        "verifiedOn": "2026-10-27",
+        "liveViewSourceHref": "https://teamoreo.co.uk/",
+        "notes": [
+          "The source Live View points to the Team Oreo homepage, not a verified client or project destination.",
+          "Testimonial quote is an unchanged excerpt from the project-specific source.",
+          "Secondary artwork uses the approved abstract pink project treatment; no stock image is presented as a client project screenshot."
+        ]
+      },
+      "heroImage": {
+        "src": "/images/use-cases/streamlining-operations-with-cloud-solutions-for-feex-group-hero.jpg",
+        "alt": "Official case-study artwork for Streamlining Operations with Cloud Solutions for FEEX Group",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1831012327696429.Feex Group.jpg"
+      }
+    },
+    {
+      "slug": "digital-transformation-for-a-retail-giant",
+      "title": "Digital Transformation for a Retail Giant",
+      "project": "Software Development",
+      "client": "Michael Carter",
+      "category": "Cloud Solution",
+      "timeline": "18 Months",
+      "summary": "A digital transformation project for Asian Market Place NYC, covering cloud migration, ERP implementation, data consolidation and omnichannel sales integration.",
+      "servicesProvided": [
+        "blockchain-technology"
+      ],
+      "sourceUrl": "https://www.teamoreo.co.uk/use-cases-details/digital-transformation-for-a-retail-giant",
+      "sourceNote": "The source labels Michael Carter as Client; its project description names Asian Market Place NYC.",
+      "about": [
+        "Team Oreo worked on an 18-month digital transformation for Asian Market Place NYC. The engagement covered cloud migration, ERP implementation and data consolidation, alongside connected sales channels and AI-supported analytics."
+      ],
+      "problems": {
+        "paragraphs": [
+          "Outdated inventory systems contributed to stock discrepancies and delivery delays. Separate online and in-store systems created inconsistent pricing and promotions, while manual reporting slowed decisions."
+        ]
+      },
+      "challenges": {
+        "items": [
+          "Migrate historical data without disrupting operations.",
+          "Integrate multiple suppliers’ systems and train staff on new processes.",
+          "Address resistance to change and cybersecurity risks during cloud adoption."
+        ]
+      },
+      "solutions": {
+        "items": [
+          "Use hybrid cloud infrastructure, automated inventory tracking and AI-supported demand forecasting.",
+          "Connect online and offline sales through one commerce platform.",
+          "Provide live reporting dashboards, adoption workshops and data encryption."
+        ]
+      },
+      "artwork": {
+        "title": "Asian Market Place NYC",
+        "label": "Cloud Solution"
+      },
+      "results": [
+        "In the published testimonial, Michael Carter reports a 95% increase in stock accuracy and a 40% increase in online sales. These figures are attributed to the testimonial."
+      ],
+      "testimonial": {
+        "quote": "The results have exceeded our expectations.",
+        "author": "Michael Carter",
+        "role": "CIO, Asian Market Place NYC, New York, USA",
+        "excerpt": true
+      },
+      "listingOrder": 2,
+      "listingSummary": "We worked with Asian Market Place NYC, a leading retail chain based in New York, USA to drive their digital transformation initiative. The project aimed to modernize their legacy systems, integrate omnichannel sales platforms, and enhance customer experience through AI-driven analytics. The engagement spanned 18 months and involved cloud migration, ERP implementation, and data consolidation.",
+      "provenance": {
+        "verifiedOn": "2026-10-27",
+        "liveViewSourceHref": "https://teamoreo.co.uk/",
+        "notes": [
+          "The source Live View points to the Team Oreo homepage, not a verified client or project destination.",
+          "Testimonial quote is an unchanged excerpt from the project-specific source.",
+          "The source labels Michael Carter as Client; its project description names Asian Market Place NYC.",
+          "Secondary artwork uses the approved abstract pink project treatment; no stock image is presented as a client project screenshot."
+        ],
+        "ambiguousFields": [
+          "client"
+        ]
+      },
+      "heroImage": {
+        "src": "/images/use-cases/digital-transformation-for-a-retail-giant-hero.png",
+        "alt": "Official case-study artwork for Digital Transformation for a Retail Giant",
+        "sourceUrl": "https://www.teamoreo.co.uk/support-files/images/project/1860872379976905.Asian.png"
+      }
+    }
+  ]
+}

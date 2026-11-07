@@ -12,7 +12,7 @@ export function CareersPreview() {
             <p className="mt-4 max-w-xl text-sm leading-6 text-muted">Explore careers, internships and placement opportunities with a team that values curiosity and practical thinking.</p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
-            <Link href="/work-with-us" className="inline-flex min-h-12 items-center justify-center rounded bg-ink px-6 text-sm font-bold text-white hover:bg-brand">Explore Careers</Link>
+            <Link href="/careers" className="inline-flex min-h-12 items-center justify-center rounded bg-ink px-6 text-sm font-bold text-white hover:bg-brand">Explore Careers</Link>
             <Link href="/work-with-us/internship-placement" className="inline-flex min-h-12 items-center justify-center rounded border border-ink/20 px-6 text-sm font-bold hover:border-brand hover:text-brand-dark">Internships & Placement</Link>
           </div>
         </div>
