@@ -5,7 +5,6 @@ import { CareersPreview } from "@/components/home/CareersPreview";
 import { FinalCTA } from "@/components/home/FinalCTA";
 import { Hero } from "@/components/home/Hero";
 import { Industries } from "@/components/home/Industries";
-import { InsightsPreview } from "@/components/home/InsightsPreview";
 import { ServicesPreview } from "@/components/home/ServicesPreview";
 import { TeamPreview } from "@/components/home/TeamPreview";
 import { UseCasesPreview } from "@/components/home/UseCasesPreview";
@@ -24,7 +23,6 @@ export default function Home() {
       <Industries />
       <TeamPreview />
       <CareersPreview />
-      <InsightsPreview />
       <FinalCTA />
     </>
   );
