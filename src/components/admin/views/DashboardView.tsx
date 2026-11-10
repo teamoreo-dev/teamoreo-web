@@ -45,11 +45,9 @@ export function DashboardView() {
         <ErrorState message="We couldn't load the dashboard." onRetry={refetch} />
       ) : (
         <>
-          <section aria-label="Summary" className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <StatCard label="Total Articles" value={data?.totalArticles} href="/admin/blogs" />
+          <section aria-label="Summary" className="grid grid-cols-2 gap-3 sm:gap-4">
             <StatCard label="Published Articles" value={data?.publishedArticles} href="/admin/blogs?status=published" />
             <StatCard label="Total Enquiries" value={data?.totalEnquiries} href="/admin/contacts" />
-            <StatCard label="New Enquiries" value={data?.newEnquiries} href="/admin/contacts?status=new" />
           </section>
 
           <section aria-labelledby="recent-heading" className="mt-10">
@@ -65,7 +63,8 @@ export function DashboardView() {
             ) : data && data.recentEnquiries.length === 0 ? (
               <EmptyState title="No enquiries yet" description="New messages from the Contact page will appear here." />
             ) : (
-              <div className={tableWrap}>
+              <>
+              <div className={`${tableWrap} hidden lg:block`}>
                 <table className="min-w-full">
                   <caption className="sr-only">Most recent enquiries</caption>
                   <thead>
@@ -96,6 +95,27 @@ export function DashboardView() {
                   </tbody>
                 </table>
               </div>
+              <div className="space-y-3 lg:hidden">
+                {data?.recentEnquiries.map((c) => (
+                  <article key={c._id} className="rounded-lg border border-line bg-white p-4 shadow-sm">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <h3 className="truncate font-semibold text-ink">{c.name}</h3>
+                        <p className="mt-1 break-all text-sm text-muted">{c.email}</p>
+                      </div>
+                      <StatusBadge status={c.status} />
+                    </div>
+                    <dl className="mt-4 grid grid-cols-2 gap-3 border-t border-line pt-3 text-sm">
+                      <div><dt className="text-xs font-bold uppercase tracking-wide text-muted">Subject</dt><dd className="mt-1 text-ink">{c.subject || "—"}</dd></div>
+                      <div><dt className="text-xs font-bold uppercase tracking-wide text-muted">Date</dt><dd className="mt-1 text-ink">{formatDate(c.createdAt)}</dd></div>
+                    </dl>
+                    <Link href={`/admin/contacts/${c._id}`} className="mt-4 inline-flex min-h-10 items-center font-bold text-brand-dark underline underline-offset-4">
+                      View enquiry<span className="sr-only"> from {c.name}</span>
+                    </Link>
+                  </article>
+                ))}
+              </div>
+              </>
             )}
           </section>
         </>

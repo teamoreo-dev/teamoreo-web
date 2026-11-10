@@ -104,7 +104,7 @@ export function BlogsListView() {
       ) : (
         data && (
           <>
-            <div className={`${tableWrap} ${loading ? "opacity-60" : ""}`} aria-busy={loading}>
+            <div className={`${tableWrap} ${loading ? "opacity-60" : ""} hidden lg:block`} aria-busy={loading}>
               <table className="min-w-full">
                 <caption className="sr-only">Articles</caption>
                 <thead>
@@ -146,6 +146,35 @@ export function BlogsListView() {
                   ))}
                 </tbody>
               </table>
+            </div>
+            <div className={`space-y-3 lg:hidden ${loading ? "opacity-60" : ""}`} aria-busy={loading}>
+              {data.items.map((b) => (
+                <article key={b._id} className="rounded-lg border border-line bg-white p-4 shadow-sm">
+                  <div className="flex gap-3">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={b.featuredImage?.url} alt={b.featuredImage?.alt || ""} width={80} height={56} className="h-14 w-20 shrink-0 rounded object-cover bg-surface" />
+                    <div className="min-w-0 flex-1">
+                      <h2 className="font-semibold leading-snug text-ink">{b.title}</h2>
+                      <p className="mt-1 text-sm text-muted">{b.category}</p>
+                    </div>
+                  </div>
+                  <dl className="mt-4 grid grid-cols-2 gap-3 border-t border-line pt-3 text-sm">
+                    <div><dt className="text-xs font-bold uppercase tracking-wide text-muted">Date</dt><dd className="mt-1 text-ink">{formatDate(b.status === "published" ? b.publishedAt : b.updatedAt)}</dd></div>
+                    <div><dt className="text-xs font-bold uppercase tracking-wide text-muted">Status</dt><dd className="mt-1"><StatusBadge status={b.status} /></dd></div>
+                  </dl>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    <Link href={`/admin/blogs/${b._id}/edit`} className={`${btnSecondary} ${btnSmall}`}>
+                      Edit<span className="sr-only"> {b.title}</span>
+                    </Link>
+                    <button type="button" disabled={togglingId === b._id} onClick={() => togglePublish(b)} className={`${btnSecondary} ${btnSmall}`}>
+                      {b.status === "published" ? "Unpublish" : "Publish"}<span className="sr-only"> {b.title}</span>
+                    </button>
+                    <button type="button" onClick={() => setToDelete(b)} className={`${btnSecondary} ${btnSmall} border-red-300 text-red-700 hover:border-red-700 hover:bg-red-50`}>
+                      Delete<span className="sr-only"> {b.title}</span>
+                    </button>
+                  </div>
+                </article>
+              ))}
             </div>
             <Pagination page={data.page} totalPages={data.totalPages} total={data.total} limit={data.limit} onPage={(p) => update({ page: p, search, status })} />
           </>

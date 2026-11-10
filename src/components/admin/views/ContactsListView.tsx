@@ -62,7 +62,7 @@ export function ContactsListView() {
       ) : (
         data && (
           <>
-            <div className={`${tableWrap} ${loading ? "opacity-60" : ""}`} aria-busy={loading}>
+            <div className={`${tableWrap} ${loading ? "opacity-60" : ""} hidden lg:block`} aria-busy={loading}>
               <table className="min-w-full">
                 <caption className="sr-only">Enquiries</caption>
                 <thead>
@@ -93,6 +93,26 @@ export function ContactsListView() {
                   ))}
                 </tbody>
               </table>
+            </div>
+            <div className={`space-y-3 lg:hidden ${loading ? "opacity-60" : ""}`} aria-busy={loading}>
+              {data.items.map((c) => (
+                <article key={c._id} className="rounded-lg border border-line bg-white p-4 shadow-sm">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0">
+                      <h2 className={`truncate font-semibold text-ink ${c.status === "new" ? "font-bold" : ""}`}>{c.name}</h2>
+                      <p className="mt-1 break-all text-sm text-muted">{c.email}</p>
+                    </div>
+                    <StatusBadge status={c.status} />
+                  </div>
+                  <dl className="mt-4 grid grid-cols-2 gap-3 border-t border-line pt-3 text-sm">
+                    <div><dt className="text-xs font-bold uppercase tracking-wide text-muted">Subject</dt><dd className="mt-1 text-ink">{c.subject || "—"}</dd></div>
+                    <div><dt className="text-xs font-bold uppercase tracking-wide text-muted">Date</dt><dd className="mt-1 text-ink">{formatDate(c.createdAt)}</dd></div>
+                  </dl>
+                  <Link href={`/admin/contacts/${c._id}`} className={`${btnSecondary} ${btnSmall} mt-4`}>
+                    View<span className="sr-only"> enquiry from {c.name}</span>
+                  </Link>
+                </article>
+              ))}
             </div>
             <Pagination page={data.page} totalPages={data.totalPages} total={data.total} limit={data.limit} onPage={(p) => update({ page: p, search, status })} />
           </>

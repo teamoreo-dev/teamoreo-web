@@ -30,7 +30,7 @@ export function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 border-b transition-colors duration-200 ${
+      className={`${open ? "fixed inset-x-0 top-0 lg:sticky lg:inset-x-auto" : "sticky top-0"} z-50 border-b transition-colors duration-200 ${
         scrolled || open
           ? "border-line/80 bg-white/95 shadow-[0_8px_30px_rgba(20,20,24,0.05)] backdrop-blur-md"
           : "border-transparent bg-white"
@@ -105,7 +105,7 @@ export function Navbar() {
 
       <div
         id="mobile-navigation"
-        className={`${open ? "visible opacity-100" : "invisible opacity-0"} absolute inset-x-0 top-full h-[calc(100dvh-68px)] overflow-y-auto border-t border-line bg-white transition-opacity duration-150 lg:hidden`}
+        className={`${open ? "visible opacity-100" : "invisible opacity-0"} absolute inset-x-0 top-full h-[calc(100dvh-68px)] overflow-y-auto border-t border-line bg-white/90 backdrop-blur-md transition-opacity duration-150 lg:hidden`}
       >
         <Container className="py-5">
           <nav aria-label="Mobile navigation">
